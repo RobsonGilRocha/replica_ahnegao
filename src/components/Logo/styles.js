@@ -5,5 +5,4 @@ export const LogoBox = styled.div`
   height: 140.73px;
   color: #FEFEFE;
   background-color: red;
-  opacity: 0.5;
 `;

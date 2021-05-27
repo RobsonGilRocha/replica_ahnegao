@@ -1,12 +1,16 @@
-import './App.css';
-import {  TopBar, PotsBox,} from './components/index'
+//import './App.css';
+import {  TopBar, AllPots,BottomBar,Separator } from './components/index'
 //import {  Separator, Logo, Row} from './components/index'
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <TopBar/>
-      <PotsBox/>
+      <Separator/>
+      <AllPots/>
+      <Separator/>
+      <BottomBar/>
+      <Separator/>
     </div>
   );
 }
