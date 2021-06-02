@@ -3,12 +3,9 @@ import { PotsBox } from '../index'
 
 function AllPots() {
     return(
-         
-            <AllPotsBox>AllPotsBox Aqui
-                <PotsBox/>
-
-            </AllPotsBox>
-        
+        <AllPotsBox>AllPotsBox Aqui
+            <PotsBox/>
+        </AllPotsBox>    
     );
 }
 

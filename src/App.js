@@ -1,5 +1,5 @@
 //import './App.css';
-import {  TopBar, AllPots,BottomBar,Separator } from './components/index'
+import {  TopBar, AllPots,BottomBar,Separator, Row } from './components/index'
 //import {  Separator, Logo, Row} from './components/index'
 
 function App() {
@@ -7,8 +7,10 @@ function App() {
     <div>
       <TopBar/>
       <Separator/>
+      <Row/>
       <AllPots/>
       <Separator/>
+      {/* <a href="BottomBar Aqui"></a> */}
       <BottomBar/>
       <Separator/>
     </div>

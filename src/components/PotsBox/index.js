@@ -3,9 +3,9 @@ import {Separator} from '../index'
 
 function PotsBox() {
     return(
-        <Separator> 
-            <PotsBoxBox>PotsBox Aqui</PotsBoxBox>
-        </Separator>
+            <Separator> 
+                <PotsBoxBox></PotsBoxBox>
+            </Separator>
     );
 }
 

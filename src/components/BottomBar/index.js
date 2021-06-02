@@ -1,11 +1,10 @@
-import {BottomBarBox} from './styles'
+import {BottomBarBox } from './styles'
 
 function BottomBar() {
     return(
         <BottomBarBox>
-            BottomBarBox Aqui    
+            Copyright © 2008-2021 Ah Negão!  
         </BottomBarBox>
-
     );
 }
 

@@ -1,9 +1,8 @@
-import {LogoBox} from './styles'
+import {LogoBox } from './styles'
 
 function Logo() {
     return(
-        <LogoBox>Logo Aqui</LogoBox>
-
+            <LogoBox></LogoBox>
     );
 }
 
