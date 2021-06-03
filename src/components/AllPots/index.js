@@ -1,10 +1,16 @@
 import {AllPotsBox} from './styles'
-import { PotsBox } from '../index'
+import { PotsBox, Indice } from '../index'
+
 
 function AllPots() {
     return(
-        <AllPotsBox>AllPotsBox Aqui
+        <AllPotsBox>
+            
             <PotsBox/>
+            
+            Vai Filhão!
+            <Indice/>
+
         </AllPotsBox>    
     );
 }

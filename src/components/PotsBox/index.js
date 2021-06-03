@@ -3,9 +3,15 @@ import {Separator} from '../index'
 
 function PotsBox() {
     return(
-            <Separator> 
+    <>
                 <PotsBoxBox></PotsBoxBox>
-            </Separator>
+            <Separator/>
+             
+            <PotsBoxBox></PotsBoxBox>
+            <Separator/> 
+        <PotsBoxBox></PotsBoxBox>
+        <Separator/>
+    </>
     );
 }
 

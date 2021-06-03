@@ -1,11 +1,12 @@
 import {TopBarBox} from './styles'
-import {Logo, Row } from '../index'
+import {Logo, Row, TopControl } from '../index'
 
 function TopBar() {
     return(
         <TopBarBox>
             <Row>
-               <Logo/> TopBarBox Aqui
+               <Logo/>
+               <TopControl/>
             </Row>     
         </TopBarBox>
     );

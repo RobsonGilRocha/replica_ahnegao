@@ -4,16 +4,15 @@ import {  TopBar, AllPots,BottomBar,Separator, Row } from './components/index'
 
 function App() {
   return (
-    <div>
+    <>
       <TopBar/>
-      <Separator/>
-      <Row/>
+      <Separator y='50'/>
       <AllPots/>
       <Separator/>
       {/* <a href="BottomBar Aqui"></a> */}
       <BottomBar/>
-      <Separator/>
-    </div>
+      <Separator y='5000' />
+    </>
   );
 }
 
