@@ -1,12 +1,9 @@
 import axios from 'axios'
 
-const api = axios.create({ baseURL: 'https://www.ahnegao.com.br/wp-json/wp/v2/posts'})
-//https://www.ahnegao.com.br/wp-json/wp/v2/posts
+const api = axios.create({ baseURL: 'https://www.ahnegao.com.br/wp-json/wp/v2'})
 
-/* export const endpoints = {
-    games: (page = 1, search = '', platforms) => `/games?page=${page}&search=${search}&${platforms}&key=${process.env.REACT_APP_API_KEY}`,
-    platforms: `/platforms/lists/parents?key=${process.env.REACT_APP_API_KEY}`,
-    gameById: (id) => `/games/${id}?key=${process.env.REACT_APP_API_KEY}`
+export const endpoints = {
+    posts: `/posts`
 }
 
-export default api */
+export default api

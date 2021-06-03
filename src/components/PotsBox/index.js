@@ -1,16 +1,12 @@
 import {PotsBoxBox} from './styles'
-import {Separator} from '../index'
+//import {Separator} from '../index'
 
 function PotsBox() {
     return(
     <>
-                <PotsBoxBox></PotsBoxBox>
-            <Separator/>
-             
-            <PotsBoxBox></PotsBoxBox>
-            <Separator/> 
-        <PotsBoxBox></PotsBoxBox>
-        <Separator/>
+    
+        <PotsBoxBox/>
+            
     </>
     );
 }
