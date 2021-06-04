@@ -6,14 +6,11 @@ export const BottomBarBox = styled.div`
   background-color: #34033B;
   color:white;
   font-size: 16px;
-  
 `;
 
 export const CopBox = styled.span`
-  
   background-color: #34033B;
   color:white;
   font-size: 16px;
-  
 `;
 
