@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BottomBarBox = styled.div`
   width: 100%;
-  height: 140.73px;
+  height: 152px;
   background-color: #34033B;
   color:white;
   font-size: 16px;
