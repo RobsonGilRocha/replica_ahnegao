@@ -7,16 +7,13 @@ function App() {
 
 
   return (
-    
     <>
       <TopBar/>
-      
+      <Separator y='145'/>
       <AllPots/>
-      <Separator/>
       {/* <a href="BottomBar Aqui"></a> */}
       <BottomBar/>
-      <Separator y='50' />
-      
+      <Separator y='25' />
     </>
   );
 }

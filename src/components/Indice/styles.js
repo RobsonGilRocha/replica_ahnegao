@@ -6,5 +6,6 @@ export const IndiceBox = styled.div`
   background:#fff url(https://i.imgur.com/OCCUWJD.png) no-repeat center;
   border-style: solid;
   background-color: #58155A;
+  margin: auto;
 `;
 

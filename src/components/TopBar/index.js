@@ -5,7 +5,7 @@ function TopBar() {
     return(
         <>
             <TopBarBox>
-                <Row justifyContent='justifyContent'>
+                <Row >
                 <Logo/>
                 <TopControl/>
                 </Row>     
