@@ -5,6 +5,8 @@ export const TopBarBox = styled.div`
   height: 140.73px;
   color: #FEFEFE;
   position: fixed;
+  z-index: 10;
+  background-color: #520D5B;
   
-  border-style: solid;
+ // border-style: solid;
 `;
