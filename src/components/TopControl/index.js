@@ -8,7 +8,8 @@ function TopControl() {
                     <Row justifyContent='justifyContent'>
                         <Separator x='170'/>
                         <a style={{textDecoration: 'none'}} href="https://www.facebook.com/ahnegao/">
-                        <CopBox>Envie seu meme</CopBox></a>
+                            <CopBox>Envie seu meme</CopBox>
+                        </a>
                         <Separator x='45'/>
                         <a style={{textDecoration: 'none'}} href="https://twitter.com/AhNegao">
                         <CopBox>Anunciar</CopBox></a>

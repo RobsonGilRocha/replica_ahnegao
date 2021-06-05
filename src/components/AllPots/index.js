@@ -13,14 +13,13 @@ function AllPots() {
         }
         fetchtPosts()
     },[])
-    console.log(posts)
-
+    
     return(
         <>
         <Row>
             <Separator/>
             <AllPotsBox>    
-            {posts && posts.map(post => <PotsBox key={post.id} item={post}  /> )}
+            {posts && posts.map(post => <PotsBox key={post.id} item={post}/> )}
                <LogoPosts/>
             </AllPotsBox>
             <Separator/>
