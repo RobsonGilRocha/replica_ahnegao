@@ -8,7 +8,7 @@ export const PotsBoxBox = styled.div`
   margin-bottom: 10px;
 `;
 
-export const PotsTitle = styled.div`
+export const PotsTitle = styled.a`
   font-family: "Carter One", display;
   font-size: 30px;
   color:#7e0e82;
@@ -28,7 +28,16 @@ export const HtmlPots = styled.div`
  display: flex;
  flex-direction: column;
  width:  100%;
+ text-align-last: center;
+ 
 `;
 
+
+export const ReadMore = styled.a`
+font-family:"Carter One";
+font-size: 42px;
+font-weight:700;
+color:#bf0fbc;
+`;//Leia mais »
 
 

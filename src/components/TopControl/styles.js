@@ -7,11 +7,15 @@ export const TopControlBox = styled.div`
   //background: url(https://i.imgur.com/26AN6Gw.png) no-repeat center;
   //border-style: solid;
   //background-color: #520D5B;
+  
 `;
 
-export const CopBox = styled.span`
+export const ConBox = styled.a`
   //background-color: #34033B;
   font-family: "Carter One", display;
   font-size: 18px;
+  color:#FFFFFF;
+  line-height: 54px;
+  font-weight: 700px;
 `;
 
