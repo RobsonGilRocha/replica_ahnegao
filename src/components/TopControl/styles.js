@@ -14,6 +14,7 @@ export const ConBox = styled.a`
   //background-color: #34033B;
   font-family: "Carter One", display;
   font-size: 18px;
+  font-weight: 700;
   color:#FFFFFF;
   line-height: 54px;
   font-weight: 700px;

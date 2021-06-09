@@ -7,7 +7,14 @@ export const PotsBoxBox = styled.div`
   padding: 20px;
   margin-bottom: 10px;
 `;
-
+export const PotsOverBox = styled.p` //?
+  width: 100%;
+  padding: 20px;
+  overflow: hidden; 
+  max-height: 905px;
+  min-height: 100px; 
+  white-space:nowrap;
+`;
 export const PotsTitle = styled.a`
   font-family: "Carter One", display;
   font-size: 30px;
@@ -39,5 +46,6 @@ font-size: 42px;
 font-weight:700;
 color:#bf0fbc;
 `;//Leia mais »
+
 
 

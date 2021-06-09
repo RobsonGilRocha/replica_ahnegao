@@ -6,7 +6,7 @@ function TopBar() {
         <>
             <TopBarBox>
                 <Row >
-                    <Separator x='70'/> <Logo/> <TopControl/>
+                    <Separator x='30'/> <Logo/> <TopControl/>
                 </Row>     
             </TopBarBox>        
         </>
