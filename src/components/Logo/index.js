@@ -2,7 +2,7 @@ import {LogoBox } from './styles'
 
 function Logo() {
     return(
-            <LogoBox></LogoBox>
+            <LogoBox href="https://www.ahnegao.com.br/"/>
     );
 }
 

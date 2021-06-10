@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <TopBar/>
-      <Separator y='150'/>
+      <Separator y='150'x='150'/>
       <AllPots/>
       <BottomBar/>
       <Separator y='25' />

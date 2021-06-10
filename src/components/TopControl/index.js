@@ -3,7 +3,7 @@ import {Row, Separator} from './../index'
 function TopControl() {
     return(
         <TopControlBox>
-            <Separator y='59'/>
+            <Separator y='49' x='49'/>
             <Row  justifyContent='justifyContent' column='column'>
                 <Row justifyContent='justifyContent'>
                     <Separator x='170'/>

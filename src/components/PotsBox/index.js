@@ -5,7 +5,8 @@ import {
     Potsline,
     HtmlPots,
     ReadMore,
-    PotsOverBox
+    PotsOverBox,
+    ReadMorebox
 } from './styles'
 import { Row, Separator} from '../index'
 import dayjs from 'dayjs'
@@ -20,11 +21,13 @@ function PotsBox({item}) {
                 <PotsDate>{dayjs(item.date).format('DD/MM/YYYY')}</PotsDate>
                 <Potsline/>
                 <HtmlPots dangerouslySetInnerHTML={{ __html: item.content.rendered }}/>
-                
             </PotsOverBox>
            <Row>
                <Separator/>
-               <ReadMore href={item.link} style={{textDecoration: 'none'}}>Leia mais »</ReadMore>
+               <ReadMorebox>
+                   <ReadMore href={item.link} style={{textDecoration: 'none'}}>Leia mais »</ReadMore>
+               </ReadMorebox>
+               
                <Separator/>
            </Row>
            <Potsline/>

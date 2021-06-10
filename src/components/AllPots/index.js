@@ -17,13 +17,15 @@ function AllPots() {
     return(
         <>
         <Row justifyContent="justifyContent">
-            <Separator x='60'/>
+                <Row column="column">
+                <Separator x='66'y='66'/>
+                </Row>
             <AllPotsBox>    
             {posts && posts.map(post => <PotsBox key={post.id} item={post}/> )}
                <LogoPosts/>
             </AllPotsBox>
             <Row column="column">
-                <Separator y='150'/>
+                <Separator y='150'x='150'/>
 
             </Row>
             
