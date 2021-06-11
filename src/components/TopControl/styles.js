@@ -18,5 +18,9 @@ export const ConBox = styled.a`
   color:#FFFFFF;
   line-height: 54px;
   font-weight: 700px;
+  &:hover {
+    cursor: pointer;
+    color: #58155A;
+  }
 `;
 

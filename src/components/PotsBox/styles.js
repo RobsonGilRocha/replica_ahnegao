@@ -22,6 +22,9 @@ export const PotsTitle = styled.a`
   font-size: 30px;
   color:#7e0e82;
   white-space: break-spaces;
+  &:hover{
+  cursor: pointer;
+    color: #58155A;}
 `;
 
 export const PotsDate = styled.div`

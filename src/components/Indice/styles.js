@@ -23,12 +23,17 @@ export const IndiceNavegtorBox = styled.div`
   font-size: 20px;
   line-height: 47px;
   color: #ffffff;
-  cursor: pointer;
-
+  border-color: #8b1d8f;
+  text-align: center;
   border-style: solid;
-  background-color: #58155A;
-
+  
+  &:hover {
+    cursor: pointer;
+    background-color: #8b1d8f;
+  }
 `;
+
+
 
 
 

@@ -9,7 +9,7 @@ function Indice({navigate, page}) {
     return(
         <IndiceBox>
                 <Row> 
-                        {page > 1 ?<IndiceNavegtorBox onClick={()=>navigate(-1)}>Anterior página</IndiceNavegtorBox>
+                        {page > 1 ?<IndiceNavegtorBox onClick={()=>navigate(-1)}>← Página anterior</IndiceNavegtorBox>
                         : 
                         <Separator/>}
                         <IndiceNavegtorBox onClick={()=>navigate(1)}>Próxima página →</IndiceNavegtorBox>

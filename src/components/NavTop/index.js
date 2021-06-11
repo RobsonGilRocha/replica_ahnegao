@@ -13,7 +13,8 @@ const NavTopBox = styled.div`
     text-align: center;
     cursor: pointer;
     z-index:90;
-    background-color: red;
+    background-color: #8b1d8f;
+    border-color: #8b1d8f;
     right: 30px;
     bottom: 30px;
     position: fixed;
@@ -21,14 +22,22 @@ const NavTopBox = styled.div`
 
 function NavTop() {
     const [toggle, setToggle] = useState(false)
+    let  corDeFundo = ""
 
+    console.log(document.body.style.backgroundColor)
     function topOn() {
+        
+       //corDeFundo = String(document.body.backgroundColor);
+       // console.log(window.pageYOffset)
+  
         window.scroll({
             top: 0,
             behavior: 'smooth'
         })
     }
-    console.log(window.pageYOffset)
+        
+    
+    
 
  //let condição = true
   //  
