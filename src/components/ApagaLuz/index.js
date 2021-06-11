@@ -1,16 +1,12 @@
 /* 
+Prioridade:
 
-prioridade:
-
-continuar posts
-
-{LEIA MAIS} vai para abrir posts ou link
-..
-
-aba apoio
-..
-
-potsboxbottombox / flutter 
+paginação quinta 13:10 inicio
 ...
 
-*/
+...potsboxbottombox / flutter...
+...aba apoio..botão para voltar para o topo(home)...
+...{LEIA MAIS} vai para abrir posts ou link...
+...continuar posts...
+...respanssividade...
+*/ 

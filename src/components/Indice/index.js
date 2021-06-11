@@ -1,9 +1,20 @@
-import {IndiceBox } from './styles'
+///import Row from '../Row'
+import Row from '../Row';
+import Separator from '../Separator';
+import {IndiceBox,IndiceNavegtorBox } from './styles'
 
-function Indice() {
+function Indice({navigate, page}) {
+
+
     return(
-            <IndiceBox></IndiceBox>
+        <IndiceBox>
+                <Row> 
+                        {page > 1 ?<IndiceNavegtorBox onClick={()=>navigate(-1)}>Anterior página</IndiceNavegtorBox>
+                        : 
+                        <Separator/>}
+                        <IndiceNavegtorBox onClick={()=>navigate(1)}>Próxima página →</IndiceNavegtorBox>
+                </Row>
+        </IndiceBox>
     );
 }
-
 export default Indice;

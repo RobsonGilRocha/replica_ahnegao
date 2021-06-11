@@ -8,4 +8,5 @@ export { default as Row } from './Row'
 export { default as TopControl } from './TopControl'
 export { default as Indice } from './Indice'
 export { default as LogoPosts } from './LogoPosts'
-
+export { default as Align} from './Align'
+export { default as NavTop} from './NavTop'

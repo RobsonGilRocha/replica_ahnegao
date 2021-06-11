@@ -13,4 +13,3 @@ export const BottomBox = styled.span`
   line-height: 30px;
   font-family: Lato, sans-serif;
 `;
-
