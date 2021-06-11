@@ -13,7 +13,6 @@ import dayjs from 'dayjs'
 
 function PotsBox({item}) {
 
-    console.log(item)
     return(
         <PotsBoxBox>
             <PotsOverBox >

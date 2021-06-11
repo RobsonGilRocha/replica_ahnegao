@@ -1,32 +1,42 @@
 import styled from 'styled-components'
+import {useEffect, useState } from 'react'
 
 const NavTopBox = styled.div`
-    height: 100px;
-    width: 100px;
-    position: fixed;
+    
+    height: 2.1em;
+    height: 2.1em;
+    line-height: 2.1;
+    transform: rotate(180deg);
+    color: #fff;
+    border-radius: 2px;
+    background-color: #8b1d8f;
+    text-align: center;
+    cursor: pointer;
     z-index:90;
     background-color: red;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
 `;
 
-
-
 function NavTop() {
+    const [toggle, setToggle] = useState(false)
+
     function topOn() {
-        console.log(window.pageYOffset); 
         window.scroll({
             top: 0,
             behavior: 'smooth'
         })
     }
- let condição = true
+    console.log(window.pageYOffset)
+
+ //let condição = true
   //  
     return(
         <>
-            {condição ?<NavTopBox onClick={()=>topOn()}/>
+            {window.pageYOffset >= 300 ?<NavTopBox onClick={()=>topOn()}>Certo</NavTopBox>
             : 
-            <div/>}
+            <NavTopBox onClick={()=>topOn()}>ERROU</NavTopBox>}
         </>
     );
 }
