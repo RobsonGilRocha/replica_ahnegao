@@ -6,7 +6,8 @@ import {
     HtmlPots,
     ReadMore,
     PotsOverBox,
-    ReadMorebox
+    ReadMorebox,
+    Potsboxbottombox
 } from './styles'
 import { Row, Separator} from '../index'
 import dayjs from 'dayjs'
@@ -30,7 +31,18 @@ function PotsBox({item}) {
                <Separator/>
            </Row>
            <Potsline/>
-           <div>potsboxbottombox</div>
+           <Potsboxbottombox>
+               <Row>
+                   <Row column="column">
+                       <div>TAG</div>
+                       <div>imgauthor</div>
+                       <div>author</div>
+                    </Row>
+                    <Row column="column">
+                    <div>comentarios</div>
+                    </Row>
+                </Row>
+               </Potsboxbottombox>
         </PotsBoxBox>
     );
 }

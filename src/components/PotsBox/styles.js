@@ -60,7 +60,7 @@ font-weight:700;
 color:#bf0fbc;
 `;//Leia mais » box
 
-export const potsboxbottombox = styled.div`
+export const Potsboxbottombox = styled.div`
 font-size: 42px;
 font-weight:${({ fontWeight }) => fontWeight || 700};
 color:#bf0fbc;

@@ -4,9 +4,9 @@ import {useEffect, useState } from 'react'
 const NavTopBox = styled.div`
     
     height: 2.1em;
-    height: 2.1em;
+    width: 2.1em;
     line-height: 2.1;
-    transform: rotate(180deg);
+    transform: rotate(360deg);
     color: #fff;
     border-radius: 2px;
     background-color: #8b1d8f;
@@ -22,9 +22,9 @@ const NavTopBox = styled.div`
 
 function NavTop() {
     const [toggle, setToggle] = useState(false)
-    let  corDeFundo = ""
+    
 
-    console.log(document.body.style.backgroundColor)
+    console.log(window.pageYOffset)
     function topOn() {
         
        //corDeFundo = String(document.body.backgroundColor);
@@ -43,9 +43,9 @@ function NavTop() {
   //  
     return(
         <>
-            {window.pageYOffset >= 300 ?<NavTopBox onClick={()=>topOn()}>Certo</NavTopBox>
+            {window.pageYOffset == 300 || window.pageYOffset < 300 ?<NavTopBox onClick={()=>topOn()}>^</NavTopBox>
             : 
-            <NavTopBox onClick={()=>topOn()}>ERROU</NavTopBox>}
+            <NavTopBox onClick={()=>topOn()}>/^\</NavTopBox>}
         </>
     );
 }
